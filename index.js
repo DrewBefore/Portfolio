@@ -6,8 +6,9 @@ var bodyParser = require("body-parser");
 var Project = require("./models/project.js");
 
 //mongoose.connect("mongodb://localhost/portfolio");
-mongoose.connect(process.env.PORTFOLIOURL);
-
+mongoose.connect(process.env.PORTFOLIOURL, {
+  useMongoClient: true,
+});
 // SAVE NEW PROJECT
 // var testProject = new Project(
 //   {
