@@ -15,6 +15,17 @@ body {
     overflow: hidden;
 }
 
+@media(max-width: 1200px) {
+    .imgBox {
+        height: 250px;
+    }
+}
+@media(max-width: 767px) {
+    .imgBox {
+        height: 175px;
+    }
+}
+
 .imgBox img {
     width: 100%;
     transition: .5s;
