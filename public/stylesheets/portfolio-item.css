@@ -38,7 +38,6 @@ body {
     width: 100%;
     height: 100%;
     opacity: 1;
-    transform: translateX(-100%) scale(1) skew(-45deg);
     transition: .5s;
 }
 
@@ -54,10 +53,11 @@ body {
 .content h3 {
     padding: 0;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 4rem;
-    transform: translateY(-100%) scale(0);
+    transform: scale(.5);
     transition: .5s;
+    opacity: 0;
 }
 
 .content p {
@@ -71,7 +71,8 @@ body {
 }
 
 .imgBox:hover .content h3 {
-    transform: translateY(0) scale(1);
+    transform: scale(1);
+    opacity: 1;
 }
 .imgBox:hover .content p {
     transform: scale(1);
@@ -82,61 +83,15 @@ body {
     transform: scale(1.2);
 }
 .imgBox:hover {
-    border: 5px solid purple;
+    border: 5px solid rgb(128, 0, 128);
     transition: .5s;
 }
 .imgBox:hover .overlay:before {
     opacity: 1;
     background: rgba(57, 27, 84, .8);
-    transform: translateX(0) scale(1) skew(-45deg);
-}
-/*
-.overlay {
-    transition: all .5s ease;
-    float: left;
-    position: absolute;
-    height: 300px;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-    background-color: black;
-    opacity: 0;
-    padding: 5px;
-    color: white;
-    font-style: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transform: translateX(0) scale(1);
 }
 
-.overlay h3 {
-    font-size: 4rem;
-    object-fit: cover;
-    width: 100%;
-}
-
-.overlay:hover {
-    opacity: .5;
-    transition: all .5s ease;
-}
-
-.overlay:hover + .portfolio-item {
-        border: 5px solid rgba(255, 0, 255, 1);
-        transition: all .5s ease;
-}
-
-.portfolio-item {
-    margin-bottom: 25px;
-    height: 300px;
-    width: 100%;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    object-fit: cover;
-    object-position: top;
-    background-color: black;
-}
-*/
 .img-extra {
     height: 175px;
     width: 100%;
