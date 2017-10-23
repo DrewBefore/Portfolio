@@ -70,7 +70,9 @@ h6 {
     .intro-message {
         padding-bottom: 15%;
     }
-
+    .new-btn {
+        width: 75%;
+    }
     .intro-message > h1 {
         font-size: 3em;
     }
