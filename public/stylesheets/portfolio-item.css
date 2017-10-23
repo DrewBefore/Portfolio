@@ -20,11 +20,7 @@ body {
         height: 250px;
     }
 }
-@media(max-width: 767px) {
-    .imgBox {
-        height: 175px;
-    }
-}
+
 
 .imgBox img {
     width: 100%;
@@ -154,4 +150,19 @@ footer {
 
 a:hover {
     cursor: pointer;
+}
+
+/* XS */
+@media(max-width: 767px) {
+    .imgBox {
+        height: 175px;
+    }
+    .content h3 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .content p{
+        font-size: 1rem;
+        margin: 5px;
+    }
 }
