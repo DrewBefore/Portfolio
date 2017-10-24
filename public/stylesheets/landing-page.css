@@ -71,7 +71,7 @@ h6 {
         padding-bottom: 15%;
     }
     .new-btn {
-        width: 75%;
+        width: 50%;
     }
     .intro-message > h1 {
         font-size: 3em;
@@ -219,7 +219,7 @@ p.copyright {
 	position: relative;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .new-btn:after {
@@ -251,7 +251,7 @@ p.copyright {
 /* Button 5 */
 .new-btn-5 {
     color: #333;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-color: #ccc;
 	height: 45px;
 	min-width: 100px;
@@ -260,8 +260,15 @@ p.copyright {
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
+    backface-visibility: hidden;
 }
+
+/* .new-btn-5:hover {
+    background-color: rgba(255, 255, 255, 0.322);
+    border-color: purple;
+    color: white;
+    transition: .5s;
+} */
 
 .new-btn-5:active {
 	background: #9053a9;
@@ -305,7 +312,7 @@ p.copyright {
 
 .new-btn-5a:before {
 	left: 0;
-	top: -120%;
+	top: -120%; 
 }
 .new-btn-5a:after {
 	left: 0;
@@ -318,17 +325,17 @@ p.copyright {
 
 .icon-lin:before {
     font-family: FontAwesome;
-	content: "\f0e1";
+    content: "\f0e1";
 }
 .icon-resume:before {
     font-family: FontAwesome;
-	content: "\f15c";
+    content: "\f15c";    
 }
 .icon-github:before {
     font-family: FontAwesome;
-	content: "\f09b";
+    content: "\f09b";    
 }
 .icon-project:before {
     font-family: FontAwesome;
-	content: "\f1b2";
+    content: "\f1b2";    
 }
