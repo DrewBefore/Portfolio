@@ -3,6 +3,7 @@ var app = express();
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 var bodyParser = require("body-parser");
+var favicon = require('serve-favicon');
 var Project = require("./models/project.js");
 
 //mongoose.connect("mongodb://localhost/portfolio");
@@ -37,6 +38,9 @@ app.use(express.static(__dirname + '/public'));
 // views is directory for all template files
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
+
+//Set favicon
+app.use(favicon(__dirname + '/public/favicon.ico'));
 
 //test
 app.get('/', function(request, response) {
