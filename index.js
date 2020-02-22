@@ -8,7 +8,8 @@ var Project = require("./models/project.js");
 
 //mongoose.connect("mongodb://localhost/portfolio");
 mongoose.connect(process.env.PORTFOLIOURL, {
-  useMongoClient: true,
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 // SAVE NEW PROJECT
