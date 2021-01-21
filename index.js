@@ -4,13 +4,13 @@ var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 var bodyParser = require("body-parser");
 var favicon = require('serve-favicon');
-var Project = require("./models/project.js");
+var Project = require("./data/projects.json");
 
 //mongoose.connect("mongodb://localhost/portfolio");
-mongoose.connect(process.env.PORTFOLIOURL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
+// mongoose.connect('process.env.PORTFOLIOURL', {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true
+// });
 
 // SAVE NEW PROJECT
 // var testProject = new Project(
@@ -49,25 +49,36 @@ app.get('/', function(request, response) {
 });
 
 app.get('/projects', function(req, res){
-    Project.find({}, function(err, allProjects){
-      if(err){
-        console.log(err);
-      } else {
-        res.render('pages/projects', {projects:allProjects});
-      }
-  });
+  res.render('pages/projects', {projects: Project.projects})
+  //   Project.find({}, function(err, allProjects){
+  //     if(err){
+  //       console.log(err);
+  //     } else {
+  //       res.render('pages/projects', {projects:allProjects});
+  //     }
+  // });
 });
 
 app.get('/projects/:title', function(req, res){
-    Project.findOne({title:req.params.title}, function(err, foundProject){
-      if (err) {
-        console.log(err);
-      } else {
-        Project.find({}, function(err, all){
-          res.render('pages/project', {project:foundProject, allProjects:all});
-        });
-      }
-    });
+  var index = 0;
+  for (var i = 0; i < Project.projects.length; i++){
+    // look for the entry with a matching `code` value
+    if (Project.projects[i].title == req.params.title){
+       // we found it
+      // obj[i].name is the matched result
+      index = i;
+    }
+  }
+    res.render('pages/project', {project: Project.projects[index], allProjects:Project.projects});
+    // Project.findOne({title:req.params.title}, function(err, foundProject){
+    //   if (err) {
+    //     console.log(err);
+    //   } else {
+    //     Project.find({}, function(err, all){
+    //       res.render('pages/project', {project:foundProject, allProjects:all});
+    //     });
+    //   }
+    // });
 });
 
 //test

@@ -1,0 +1,169 @@
+{
+    "projects": [
+        {
+            "_id": {
+                "$oid": "5966c00ea012fe1b5838570f"
+            },
+            "title": "Infographic",
+            "type": "Design",
+            "sub_title": "Adobe Illustrator",
+            "description": "Project was designed for presenting information about a topic in an informative attractive way. Used color, layout, typography and base models. Created displays one at a time, and changed them due to given feedback.",
+            "website": "http://dbefore.wixsite.com/infovis-2015",
+            "thumbnail": "/stylesheets/img/cham.png",
+            "jumbo": "/stylesheets/img/finallayout.png",
+            "imgs": [
+                "/stylesheets/img/FINAL location-03.png",
+                "/stylesheets/img/FINAL number-03.png",
+                "/stylesheets/img/RelationDisplayv3-01-01.png",
+                "/stylesheets/img/FINAL timeDisplay-01.png"
+            ],
+            "details": [
+                "Model Based Design",
+                "Documented Design Process",
+                "Each display custom made through iterative process"
+            ],
+            "__v": 0
+        },
+        {
+            "_id": {
+                "$oid": "5966de60734d1d30c36a78cc"
+            },
+            "title": "Mobile App Design",
+            "type": "Design",
+            "sub_title": "Adobe Illustrator, Photoshop, Sketch",
+            "description": "This is a piece that I created of a much larger group project. Our task was to first create our own design language. We chose to design a phone for kids. Using our design language we were tasked with created all of the apps commonly found on a mobile phone.",
+            "website": "/stylesheets/img/kid.pdf",
+            "thumbnail": "/stylesheets/img/Clock-01.png",
+            "jumbo": "/stylesheets/img/Clock-06.png",
+            "imgs": [
+                "/stylesheets/img/Clock-01.png",
+                "/stylesheets/img/Clock-02.png",
+                "/stylesheets/img/Clock-03.png",
+                "/stylesheets/img/Clock-04.png"
+            ],
+            "details": [
+                "Custom Design Language",
+                "Mobile App Design",
+                "Sprint based Project",
+                "Used Illustrator / Photoshop to create all simple apps required by a phone designed for kids"
+            ],
+            "__v": 0
+        }, 
+        {
+            "_id": {
+                "$oid": "5966dfc0734d1d30c36a7932"
+            },
+            "title": "BestInClass",
+            "type": "Design",
+            "sub_title": "Graphic Designer",
+            "description": "BestInClass needed a graphic designer to work on their website and a few print projects. I created a bookmark, and several advertisements for them.",
+            "website": "https://bestinclasseducation.com/",
+            "thumbnail": "/stylesheets/img/bookmark-03.png",
+            "jumbo": "/stylesheets/img/bookmarksmall-03.png",
+            "imgs": [
+                "/stylesheets/img/bookmark-01.png",
+                "/stylesheets/img/bookmark-05.png",
+                "/stylesheets/img/magazine ad-02.png",
+                "/stylesheets/img/now hiring-02.png"
+            ],
+            "details": [
+                "Contracted to Design Bookmarks Magazine Ads, and Job Flyers",
+                "Worked with Deadlines",
+                "Experience working remotely"
+            ]
+        },
+        {
+            "_id": {
+                "$oid": "5e51ae867c213e67373e2034"
+            },
+            "title": "Nintendo",
+            "type": "Web Development",
+            "sub_title": "Web Developer",
+            "description": "Web developer working on Nintendo.com, and all of our games websites.",
+            "website": "www.nintendo.com",
+            "thumbnail": "/stylesheets/img/nin-logo.jpg",
+            "jumbo": "/stylesheets/img/nin-7.jpg",
+            "imgs": [
+                "/stylesheets/img/nin-1.jpg",
+                "/stylesheets/img/nin-2.jpg",
+                "/stylesheets/img/nin-3.jpg",
+                "/stylesheets/img/nin-4.jpg",
+                "/stylesheets/img/nin-5.jpg",
+                "/stylesheets/img/nin-6.jpg",
+                "/stylesheets/img/nin-8.jpg",
+                "/stylesheets/img/nin-9.jpg",
+                "/stylesheets/img/nin-10.jpg",
+                "/stylesheets/img/nin-11.jpg",
+                "/stylesheets/img/nin-12.jpg",
+                "/stylesheets/img/nin-13.jpg",
+                "/stylesheets/img/nin-14.jpg"
+            ],
+            "details": [
+                "HTML CSS Javascript",
+                "AEM",
+                "Web Components",
+                "Nintendo.com",
+                "https://smashbros.nintendo.com/buy",
+                "https://nintendo.com/nintendo-direct/archive"
+            ]
+        },
+        {
+            "_id": {
+                "$oid": "5966e357734d1d30c36a79ef"
+            },
+            "title": "Capstone",
+            "type": "Engineering",
+            "sub_title": "Analyzing the Dark Web",
+            "description": "The Darkweb is a section of the internet only accessible by special TOR browsers that anonymize users' IP addresses. There are markets on the Darkweb where people buy and sell illicit goods and services using Bitcoin as their currency. Both the Darkweb and the Bitcoin blockchain are considered anonymous independent of each other. There are patterns that we believe present themselves similarly in both networks through the growth in popularity and activity in nodes of the networks. We propose there are methods to link these two networks to de-anonymize some portion of the users on the Darkweb. By looking at many different measures of centrality and network flow analysis we can track these strong patterns presented over time. The social aspect of the darknet forums allows us to analyze the interaction between two people on the forums and determine how strongly and what the exact relationship we should be looking for in the blockchain. Finding the most important vendors on these forums will present themselves as high volume nodes in the blockchain and we believe the style of advertising and interaction with their customers that we find on the forums will be a strong indication of the patterns we will see in nodes that match similar transaction volume in the blockchain.  In this way we will be able to determine those transactions that have a high probability of being related to the Darkweb transactions.  ",
+            "website": "http://blockbusters.group",
+            "thumbnail": "/stylesheets/img/Capstone-01.png",
+            "jumbo": "/stylesheets/img/Capstone-02.png",
+            "imgs": [
+                "/stylesheets/img/capstone2-03.png",
+                "/stylesheets/img/capstone2-02.png",
+                "/stylesheets/img/Capstone-04.png",
+                "/stylesheets/img/Capstone-03.jpg"
+            ],
+            "details": [
+                "Parsed 2TB of raw HTML to ~50GB of usable clean data",
+                "Created Capstone poster and video",
+                "Downloaded all DarkWeb forum activity between 2013 and 2016",
+                "Created Capstone research Video and, poster Walk-Through Video",
+                "Analyzed and compared trends between activity on the Dark Web and the Bitcoin Blockchain",
+                "Created templates to use with a parser to scrape desired data from each different forum",
+                "Utilized: Adobe Photoshop, Adobe After Effects, Adobe Illustrator,",
+                "HTML5, CSS, JavaScript, Python, Templating, SQL"
+            ]
+        },
+        {
+            "_id": {
+                "$oid": "5967acf9734d1d30c36ad8f1"
+            },
+            "title": "Warlocks",
+            "type": "Engineering",
+            "sub_title": "Unity3d",
+            "description": "Warlocks is a mobile multiplayer battle arena game. It is my clone version of a custom game from WarcraftIII made for mobile. The objective of the game is to use your spells to reduce your opponents health to zero. The more damage dealt to a warlock, the further they get pushed back with each hit. Push them into the lava for additional damage per second.",
+            "website": "",
+            "thumbnail": "/stylesheets/img/warlock-01.png",
+            "jumbo": "/stylesheets/img/warlock-08.png",
+            "imgs": [
+                "/stylesheets/img/warlock-14.png",
+                "/stylesheets/img/warlock-05.png",
+                "/stylesheets/img/warlock-06.png",
+                "/stylesheets/img/warlock-07.png",
+                "/stylesheets/img/warlock-08.png",
+                "/stylesheets/img/warlock-09.png",
+                "/stylesheets/img/warlock-10.png",
+                "/stylesheets/img/warlock-11.png",
+                "/stylesheets/img/warlock-12.png",
+                "/stylesheets/img/warlock-13.png"
+            ],
+            "details": [
+                "Unity3d",
+                "c#",
+                "Object Oriented Design",
+                "Coming Soon!"
+            ]
+        }
+    ]
+}
